@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/restorant_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="60sp"
+            android:fontFamily="sans-serif-medium"
+            android:padding="8dp"
+            android:text="Kitchen Developer"
+            android:textSize="24sp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_starter"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/restorant_name"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="60sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@mipmap/ic_launcher_foreground"
+                    android:scaleType="center" />
+
+                <TextView
+                    android:id="@+id/Starter_mela"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="8dp"
+                    android:text="Starters"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_maine"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_starter"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="60sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@mipmap/ic_launcher_foreground"
+                    android:scaleType="center"/>
+
+                <TextView
+                    android:id="@+id/Main_mela"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="8dp"
+                    android:text="Main meal"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/De_maine"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_maine"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="60sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@mipmap/ic_launcher_foreground"
+                    android:scaleType="center"/>
+
+                <TextView
+                    android:id="@+id/Dessert_mela"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="8dp"
+                    android:text="Dessert meal"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+</ScrollView>
