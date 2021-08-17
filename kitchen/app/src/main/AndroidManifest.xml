@@ -9,7 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kitchen">
-        <activity android:name=".MainActivity">
+
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:label="Dessert"
+            android:name=".DessertActivity2"
+            android:exported="true"
+            />
+
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:label="Main Course"
+            android:name=".maincouseActivity2"
+            android:exported="true"
+            />
+
+        <activity
+            android:parentActivityName=".MainActivity"
+            android:label="Starters"
+            android:name=".startersActivity2"
+            android:exported="true"
+            />
+
+        <activity
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
