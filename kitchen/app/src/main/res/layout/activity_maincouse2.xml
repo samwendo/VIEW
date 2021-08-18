@@ -7,11 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".maincouseActivity2">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="navigate to main "
-        android:textSize="30sp"
+    <ListView
+        android:id="@+id/maine_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
 
         />
 
