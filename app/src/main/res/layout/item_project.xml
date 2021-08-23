@@ -15,12 +15,11 @@
             android:id="@+id/image_View_Project_Icon"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_marginStart="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/brt"
-            android:src="" />
+            android:src="@drawable/brt" />
 
         <TextView
             android:id="@+id/Text_View_Project_Titel"
