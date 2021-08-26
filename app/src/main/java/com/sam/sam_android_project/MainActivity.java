@@ -16,36 +16,19 @@ RecyclerView projectListRecyclerView;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        projectListRecyclerView = findViewById(R.id.recycler_view);
+        projectListRecyclerView = findViewById(R.id.);
 
         Project[] myProject = {
                 new Project("happy birthday",
                         "happy happy birthday samy sam sam sam sam sam",
-                        R.drawable.brt),
-                new Project("happy birthday",
+                        R.drawable.download),
+                new Project("Gift",
                         "happy happy birthday samy sam sam sam sam sam",
-                        R.drawable.ic_launcher_background),
-                new Project("happy birthday",
+                        R.drawable.hills_2836301_1920),
+                new Project("BMI",
                         "happy happy birthday samy sam sam sam sam sam",
-                        R.drawable.ic_launcher_background),
-                new Project("happy birthday",
-                        "happy happy birthday samy sam sam sam sam sam",
-                        R.drawable.ic_launcher_background),
-                new Project("happy birthday",
-                        "happy happy birthday samy sam sam sam sam sam",
-                        R.drawable.ic_launcher_background),
-                new Project("happy birthday",
-                        "happy happy birthday samy sam sam sam sam sam",
-                        R.drawable.ic_launcher_background),
-                new Project("happy birthday",
-                        "happy happy birthday samy sam sam sam sam sam",
-                        R.drawable.ic_launcher_background),
-                new Project("happy birthday",
-                        "happy happy birthday samy sam sam sam sam sam",
-                        R.drawable.ic_launcher_background),
-                new Project("happy birthday",
-                        "happy happy birthday samy sam sam sam sam sam",
-                        R.drawable.ic_launcher_background),
+                        R.drawable.north_cascades_national_park_lake_ann_park),
+
         };
 
 
